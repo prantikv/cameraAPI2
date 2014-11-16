@@ -31,7 +31,13 @@ var app = {
     },
 
     takePicture: function() {
-      navigator.camera.getPicture( function( imageURI ) {alert( imageURI );},
+      navigator.camera.getPicture( function( imageURI ) {
+
+        var image=document.getElementById('myImage');
+        image.src=imageURI;
+        
+
+    },
        function( message ) {alert( message ); },
        {quality: 50,destinationType: Camera.DestinationType.FILE_URI});
     }
