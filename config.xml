@@ -17,6 +17,7 @@
     </author>
       <gap:platform name="android" />
     <preference name="phonegap-version" value="3.6.3" /> 
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <gap:plugin name="org.apache.cordova.core.camera" />
 </widget>
