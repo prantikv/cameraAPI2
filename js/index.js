@@ -32,7 +32,7 @@ var app = {
 
     },
        function( message ) {alert( message ); },
-       {quality: 50,destinationType: Camera.DestinationType.FILE_URI,saveToPhotoAlbum: true});
+       {quality: 50,destinationType: Camera.DestinationType.FILE_URI, saveToPhotoAlbum: true});
     }
 };
 
